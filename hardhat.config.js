@@ -25,10 +25,11 @@ module.exports = {
         },
     },
     gasReporter: {
-        enabled: false,
+        enabled: true,
         outputFile: "gas-report.txt",
         noColors: true,
         currency: "USD",
+        token: "ETH",
         coinmarkertcap: COINMARKETCAP_API_KEY,
     },
     etherscan: {

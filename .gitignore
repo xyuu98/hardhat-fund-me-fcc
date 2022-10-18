@@ -7,6 +7,8 @@ typechain
 .solhintignore
 transactionReceipt
 
+
 #Hardhat files
 cache
 artifacts
+gas-report.txt
