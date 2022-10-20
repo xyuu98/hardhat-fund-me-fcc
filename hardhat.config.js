@@ -26,6 +26,8 @@ module.exports = {
             accounts: [PRIVATE_KEY],
             chainId: 5,
             blockConfirmations: 6,
+            gas: 2100000,
+            gasPrice: 8000000000,
         },
     },
     gasReporter: {
@@ -56,5 +58,8 @@ module.exports = {
         user: {
             default: 1,
         },
+    },
+    mocha: {
+        timeout: 500000,
     },
 }
